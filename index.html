@@ -22,7 +22,62 @@
 
         </nav>
     </header>
-    <main>
+        <main>
+            <section id="upper">
+                <!-- <div class="side-container"> -->
+                    <p> New Employee </p>
+                    <form id="myForm">  
+                        <fieldset>
+                            <legend>Add Employee</legend>
+
+                                <label >Full Name:- </label>
+                                <input type="text" id="Full_Name" name="Full_Name" placeholder="insert the Full_Name here">
+                                <br>
+                                <br>
+                            <!-- </div> -->
+
+                                <label>Department:- </label>
+                                <br>
+                                <select name="Department" id="Department">
+                                    <option value="Administration">Administration</option>
+                                    <option value="Marketing">Marketing</option>
+                                    <option value="Development">Development</option>
+                                    <option value="Finance">Finance</option>
+                                </select>
+                                <br>
+                                <br>
+                                
+                            <!-- </div> -->
+                                
+                                <label>Level:- </label>
+                                <br>
+                                <select name="Level" id="Level">
+                                    <option value="Junior">Junior</option>
+                                    <option value="Mid-Senior">Mid-Senior</option>
+                                    <option value="Senior">Senior</option>
+                                </select>
+                                <br>
+                                <br>
+                            <!-- </div> -->
+                                
+                                <label>Image url:- </label>
+                                <input type="text" id="img" placeholder="Upload Photo(link) here"> 
+                                <br>
+                                <br>
+                            
+                                <button class="submit">add employee</button>
+                                
+                                <br>
+                            
+                        </fieldset>
+                    </form>
+                
+                    <p> All Employees </p>
+                    <div id="card"></div>
+               
+                </section>
+
+            </section>
         <script src="./app.js"></script>
     </main>
     <footer>
