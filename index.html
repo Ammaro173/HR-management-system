@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>HR System</title>
     
     
 
 </head>
 <body>
-    <header>
-        <nav>
+    <div class="grid-container">
+    <header class="Style_header">
+        <img src="./assets/hr-systems-gmbh-vector-logo.png" alt="" class="header-logo" width="320" height="200">
+        <nav class="header-nav">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="./accounting.html">Accounting</a></li>
@@ -22,19 +25,18 @@
 
         </nav>
     </header>
-        <main>
-            <section id="upper">
-                <!-- <div class="side-container"> -->
-                    <p> New Employee </p>
+        <main id="mainId">
+            <section  class="form-section" id="upper">
+            
+                    <p id="p1"> New Employee </p>
                     <form id="myForm">  
-                        <fieldset>
+                        <fieldset class="formset">
                             <legend>Add Employee</legend>
 
                                 <label >Full Name:- </label>
                                 <input type="text" id="Full_Name" name="Full_Name" placeholder="insert the Full_Name here">
                                 <br>
                                 <br>
-                            <!-- </div> -->
 
                                 <label>Department:- </label>
                                 <br>
@@ -46,9 +48,7 @@
                                 </select>
                                 <br>
                                 <br>
-                                
-                            <!-- </div> -->
-                                
+
                                 <label>Level:- </label>
                                 <br>
                                 <select name="Level" id="Level">
@@ -58,8 +58,6 @@
                                 </select>
                                 <br>
                                 <br>
-                            <!-- </div> -->
-                                
                                 <label>Image url:- </label>
                                 <input type="text" id="img" placeholder="Upload Photo(link) here"> 
                                 <br>
@@ -72,19 +70,20 @@
                         </fieldset>
                     </form>
                 
-                    <p> All Employees </p>
+                    <p id="p2"> All Employees </p>
                     <div id="card"></div>
-               
-                </section>
+                    
+                </section id="sectionAdd">
 
             </section>
         <script src="./app.js"></script>
     </main>
-    <footer>
-        <div>
+    <footer class="main-footer">
+    </div class="main-footer-container">
+        <div class="footer-nav">
             <a href="www.facebook.com">facebook</a>
         </div>
-        <div>
+        <div class="copy">
 <p>©2022, All copy Rights reserved</p>
         </div>
     </footer>

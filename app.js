@@ -195,5 +195,3 @@ gettingItems();
 for (let i = 0; i < ideato.length; i++) {
   ideato[i].render();
 }
-
-console.log(ideato);
