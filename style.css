@@ -1,0 +1,99 @@
+* {
+  font-size: 16px;
+  font-family: fantasy;
+}
+
+.Style_header {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  border-style: dotted;
+}
+main {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  /* width: 100vw;
+    height: 20%; */
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  gap: 10px;
+}
+
+#myForm {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding: 10px;
+  text-align: center;
+}
+#p1 {
+  border-style: dotted;
+  display: flex;
+  justify-content: center;
+}
+#card {
+  justify-content: center;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+#upper {
+  max-width: 1400px;
+}
+#p2 {
+  justify-content: center;
+  text-align: center;
+  border-style: dotted;
+}
+
+.copy {
+  justify-content: center;
+  text-align: center;
+}
+.footer-nav {
+  border-style: double;
+  justify-content: center;
+  text-align: center;
+}
+
+#tableS {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  height: 30%;
+}
+#mainAcc {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-image: url('https://www.workforcehub.com/wp-content/uploads/2018/07/swipeclock-hr-system-integration.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+}
